@@ -176,7 +176,7 @@ epub_exclude_files = ['search.html']
 from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
-    '.md': CommonMarkParser,
+   '.md': 'recommonmark.parser.CommonMarkParser',
 }
 
 source_suffix = ['.rst', '.md']
