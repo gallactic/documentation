@@ -17,6 +17,7 @@ Prerequisite
 Setup instruction 
 -----------------
     The set-up instructions are available for the following platforms:
+
     * Ubuntu
     * Mac 
 
@@ -32,6 +33,11 @@ Compile and build the gallactic project.
     make
 
 Run ``gallactic version`` to make sure gallactic is properly compiled and installed in your machine.
+
+.. image:: images/version.png
+    :width: 420px
+    :alt: Gallactic version
+    :align: center
 
 Running Gallactic :
 ^^^^^^^^^^^^^^^^^^^
@@ -52,7 +58,7 @@ Hurray !! All set to run a Gallactic node.
 
 ::
 
-    gallactic start
+    gallactic start -w=<workspace_directory>
 
 This command will ask you to enter the private key of the validator. Enter the private key (priv_key) of the validator, as provided by the init command above. The Gallactic blockchain starts immediately, upon successful acceptance of the private key.
 
