@@ -10,7 +10,7 @@ Setup your machine for gallactic development
 Prerequisite
 ------------
 
- 1. Install `Go <https://golang.org/>`_ (version 1.11.1 or higher) and `Rust <https://www.rust-lang.org>`_. 
+ 1. Install `Go <https://golang.org/>`_ (version 1.11.1 or higher) and `Rust <https://www.rust-lang.org>`_
  2. Configure GOPATH and Rust in ~/.bashrc ~/.zshrc or ~/.bash_profile
  3. Git 
  
@@ -29,7 +29,7 @@ Compile and build the gallactic project.
 
     mkdir -p $GOPATH/src/github.com/gallactic/gallactic
     cd $GOPATH/src/github.com/gallactic
-    git clone https://github.com/gallactic/gallactic.git .
+    git clone https://github.com/gallactic/gallactic.git
     make
 
 Run ``gallactic version`` to make sure gallactic is properly compiled and installed in your machine.
@@ -66,7 +66,7 @@ This command will ask you to enter the private key of the validator. Enter the p
 Run in Docker
 *************
 
-Install `Docker <https://www.docker.com/>`_ and run the following commands to build the docker file:
+Install `Docker <https://docs.docker.com/install/>`_ and run the following commands to build the docker file:
 
 :: 
 

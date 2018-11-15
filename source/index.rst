@@ -28,6 +28,7 @@ Contents
    :maxdepth: 2
 
    quickstart.rst
+   gallactic_key.rst
    private_chain.rst
    smart_contract.rst
    gallactic_vm.rst
